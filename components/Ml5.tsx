@@ -21,7 +21,7 @@ const Ml5: React.FC = () => {
   }
 
   const setup = async () => {
-    const model = await ml5.pix2pix('/piccato_Human_to_Cat.pict', modelLoaded);
+    const model = await Ml5.pix2pix('/piccato_Human_to_Cat.pict', modelLoaded);
     setPix2pix(model);
   }
   
